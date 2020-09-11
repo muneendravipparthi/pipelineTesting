@@ -24,7 +24,7 @@ public class Practice {
 	public void setUp() throws Exception {
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"//executables//chromedriver.exe");
 		driver = new ChromeDriver();
-		baseUrl = "https://www.techlistic.com/p/selenium-practice-form.html";
+		baseUrl = "https://www.techlistic1.com/p/selenium-practice-form.html";
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 
