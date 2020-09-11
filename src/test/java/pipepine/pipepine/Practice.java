@@ -45,6 +45,7 @@ public class Practice {
 		driver.findElement(By.id("profession-1")).click();
 		driver.findElement(By.id("tool-2")).click();
 		driver.findElement(By.id("tool-1")).click();
+		System.out.println(">>>>>>>>>>>>>>>>>>>>>> "+driver.getTitle());
 	}
 
 	@AfterClass(alwaysRun = true)
